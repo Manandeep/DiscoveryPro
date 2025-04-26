@@ -10,7 +10,7 @@ cd ..
 # Start Angular frontend
 cd frontend/frontend
 npm install
-npx ng serve --host=0.0.0.0 --port=4200
+npx ng serve --host=0.0.0.0 --port=4200 --disable-host-check
 FRONT_PID=$!
 
 # Wait for both
