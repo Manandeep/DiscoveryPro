@@ -5,5 +5,6 @@
     pkgs.yarn
     pkgs.git
     pkgs.maven
+    pkgs.gcc
   ];
 }
